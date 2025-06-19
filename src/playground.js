@@ -13,15 +13,6 @@ export var Playground = ({ style }) => {
         ...style,
       }}
     >
-      <Group
-        style={{
-          height: 150,
-          position: 'absolute',
-          left: 460,
-          top: 86,
-          width: 118,
-        }}
-      />
       <div
         style={{
           backgroundColor: '#aaaaaa33',
