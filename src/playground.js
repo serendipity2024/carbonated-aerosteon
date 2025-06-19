@@ -18,9 +18,14 @@ export var Playground = ({ style }) => {
           backgroundColor: '#aaaaaa33',
           position: 'absolute',
           top: 296,
-          height: 305,
+          height: 'max-content',
           left: 149,
-          width: 471,
+          width: 'max-content',
+          display: 'flex',
+          flexDirection: 'row',
+          gap: 50.5,
+          alignItems: 'flex-start',
+          justifyContent: 'flex-start',
         }}
       >
         <img
@@ -31,32 +36,17 @@ export var Playground = ({ style }) => {
             height: 150,
             borderRadius: 5,
             overflow: 'hidden',
-            position: 'absolute',
-            left: 0,
-            top: 0,
           }}
         />
         <img
           src='https://github.com/concrete-utopia/utopia/blob/master/editor/resources/editor/pyramid_fullsize@2x.png?raw=true'
           alt='Utopia logo'
-          style={{
-            width: 118,
-            height: 150,
-            position: 'absolute',
-            left: 149,
-            top: 15,
-          }}
+          style={{ width: 118, height: 150 }}
         />
         <img
           src='https://github.com/concrete-utopia/utopia/blob/master/editor/resources/editor/pyramid_fullsize@2x.png?raw=true'
           alt='Utopia logo'
-          style={{
-            width: 118,
-            height: 150,
-            position: 'absolute',
-            left: 311,
-            top: 78,
-          }}
+          style={{ width: 118, height: 150 }}
         />
       </div>
     </div>
